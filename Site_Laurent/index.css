@@ -1,0 +1,163 @@
+/* THEME GENERAL */
+
+html {
+    background-image: radial-gradient(circle, #FFAD60, #59809A);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    top: 0%; left : 0%; padding: 25px;
+    width : 100%;
+    z-index : 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+header .navbar li a:hover {
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    font-size: 1.5em;
+    margin-right: 40px;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+    font-weight: 700;
+}
+
+.logo {
+    color: black;
+    font-weight: bold;
+    font-size: 1.75em;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: orange;
+    margin-top: -10px;
+}
+
+p {
+    font-weight: 400;
+    color: black;
+    background: white;
+}
+
+/* BANNIERE INTRO */
+.intro {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/trees.jpg);
+    background-size: cover;
+}
+
+.intro .today {
+    max-width: 70%;
+    text-align: center;
+}
+
+.intro .today h1 {
+    color: blue;
+    font-size: 3em;
+}
+
+
+/* GRABOVOI */
+
+h2 {
+    font-size: 2em;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 20px;
+}
+
+.Grabovoi .num {
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+}
+
+.text p {
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background: none;
+}
+
+/* STORYTELLING */
+
+h3 {
+    font-size: 2em;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 20px;
+}
+
+.story .hist {
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+}
+
+.text p {
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background: none;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+/* INSCRIPTION */
+
+
+
+.form
+.login-form
+.btn
+.radio{
+    background-image: radial-gradient(circle, #FFAD60, #59809A);   
+}
+
+.form-control,
+.btn{
+    margin-left: 40%;
+    padding : 5px;
+    font-size: 20px;
+    font-weight: bold;
+    min-height: 40px;
+    border-radius: 4px;
+    
+}
+
+.btn{
+    margin-left: 13%;
+}
+
+
